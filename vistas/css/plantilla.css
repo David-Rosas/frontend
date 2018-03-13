@@ -1,0 +1,173 @@
+/*==================================
+Goblal
+===================================*/
+*{
+	
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+	
+}
+
+ul, ol{
+	padding: 0px;
+
+}
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+.barraSuperior{
+	background: black;
+
+}
+.barraSuperior a{
+	color: white;
+}
+.backColor, .backColor a{
+	background:#A576FF !important;
+	color: white !important;
+}
+.fondoBreacrumb{
+margin-bottom: 0PX;
+background: rgba(0,0,0,0);
+
+}
+
+/*==================================
+REDES SOCIALES
+===================================*/
+.redSocial{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*FACEBOOK*/
+.facebookBlanco{
+	color: white;
+}
+.facebookNegro{
+	color: black
+}
+.facebookColor{
+	color: white;
+	background: #46639f;
+}
+
+/*YOUTUBE*/
+.youtubeBlanco{
+	color: white;
+}
+.youtubeNegro{
+	color: black
+}
+.youtubeColor{
+	color: white;
+	background: #d6513e;
+}
+
+/*TWITTER*/
+.twitterBlanco{
+	color: white;
+}
+.twitterNegro{
+	color: black
+}
+.twitterColor{
+	color: white;
+	background: #0ab2e6;
+}
+
+/*GOOGLE*/
+.googleBlanco{
+	color: white;
+}
+.googleNegro{
+	color: black
+}
+.googleColor{
+	color: white;
+	background: #d71617;
+}
+
+/*INSTAGRAM*/
+.instagramBlanco{
+	color: white;
+}
+.instagramNegro{
+	color: black
+}
+.instagramColor{
+	color: white;
+	background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2);
+}
+
+/*==================================
+ERROR 404
+===================================*/
+
+.erro404{
+	color:#333;
+}
+
+/*==================================
+Goblal
+===================================*/
+#scrollUp{
+bottom: 20px;
+right: 20px;
+width: 50px;
+height: 50px;
+background: url(../img/plantilla/flecha.jpg);
+
+}
+/*resolucion entre 1366x449px
+ escritorio grande*/
+@media (min-width:1200px){
+	.col-lg-0{
+		display: none;
+	}
+.error404 h1{
+	font-size: 300px;	
+	text-shadow: 8px 8px 1px #dadada;
+	}
+}
+/*resolucion entre 1024x436px*/
+/*escritorio mediano o tablet horizontal */
+@media (max-width:1199px) and (min-width:992px){
+	.col-md-0{
+		display: none;
+	}
+.error404 h1{
+	font-size: 200px;	
+	text-shadow: 6px 6px 1px #dadada;
+	}
+}
+/*resolucion entre 768x436px
+/*escritorio mediano o tablet vertical */
+
+@media (max-width:991px) and (min-width:768px){
+	.col-sm-0{
+		display: none;
+	}
+	.error404 h1{
+	font-size: 150px;	
+	text-shadow: 5px 5px 1px #dadada;
+	}
+}
+/*resolucion entre 320x436px
+/*movil o 320 px*/
+@media (max-width:767px){
+	.col-xs-0{
+		display: none;
+	}
+	.error404 h1{
+	font-size: 90px;	
+	text-shadow: 4px 4px 1px #dadada;
+	}
+}
+

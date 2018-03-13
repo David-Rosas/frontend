@@ -1,0 +1,165 @@
+
+/*==================================
+TOP
+===================================*/
+
+#top ul{
+	padding-top:8px;
+}
+
+#top ul li{
+	display: inline;
+	line-height: 30px;
+	margin: 0px 5px;
+	color: white;
+}
+
+.social ul li a i{
+	font-size: 18px;
+	margin: 0 1px;
+}
+.registro ul{
+	text-align: right;
+	font-size: 12px;
+}
+
+
+
+header, #btnCategorias{
+	margin: 0px 0px;
+}
+
+header #btnCategorias p{
+	line-height: 40px;
+	margin-bottom: 0px;
+}
+header #btnCategorias p span{
+	cursor: pointer;
+}
+header #buscador{
+	margin: 0px 0;
+
+}
+header #buscador input{
+	padding: 19px;
+	border-radius: 0;
+}
+header #buscador button{
+	padding: 9px;
+	border: 1px solid silver;
+	border-radius: 0;
+}
+header #carrito{
+	margin: 0px 0;
+}
+header #carrito button{
+	padding: 9px 15px;
+	border: 1px solid silver;
+	border-radius:0;
+}
+header #carrito p{
+	padding:2px;
+	padding-left: 60px;
+	border: 1px solid #aaa;
+	font-size: 12px;
+}
+header #categorias{
+	margin-top: 10px;
+	display: none;
+	position: relative;
+	padding-bottom: 30px;
+}
+header #categorias h4{
+	margin-bottom:-10px;
+}
+header #categorias hr{
+	border: 1px solid rgba(255,255,255,.3);
+}
+/*resolucion minimo 1200px
+ escritorio grande*/
+@media (min-width:1200px){
+	header .logotipo img{
+		padding: 0px 60px;
+		padding-left: 0px;
+			}
+  header #carrito{
+	padding-left: 100px;
+				}
+		}
+		#cabezote{
+	padding-top: 60px;
+    }
+
+/*resolucion entre 1024x436px*/
+/*escritorio mediano o tablet horizontal */
+@media (max-width:1199px) and (min-width:992px){
+	header .logotipo img{
+		padding: 0px 0px;
+
+		}
+		header #carrito{
+		padding-left: 60px;
+					}
+		#cabezote{
+	    padding-top: 60px;
+	    }			
+
+	}
+/*resolucion entre 768x436px
+/*escritorio mediano o tablet vertical */
+
+@media (max-width:991px) and (min-width:768px){
+	header .logotipo img{
+		padding: 10px 0px;
+		}
+	header #carrito{
+		padding-left: 55px;
+		padding-bottom: 10px;
+		}
+  header #carrito p{
+	 display: none;
+		}
+		#cabezote{
+	    padding-top: 110px;
+	    }	
+}
+
+/*resolucion entre 320x436px
+/*movil o 320 px*/
+@media (max-width:767px){
+	/*TOP*/
+#top ul{
+	text-align: center;
+}
+#top #registro{
+	border-top:1px solid #222;
+}
+
+	/*HEADER*/
+header .logotipo img{
+		padding: 30px ;
+		padding-bottom: 5px;
+
+		}
+header #buscador {
+	 margin-top: 10px ;
+			}
+header #btnCategorias {
+	margin-bottom: 10px;
+
+			}
+header #carrito {
+	margin: 10px 0px;
+			}
+header #carrito p{
+	margin: 0px;
+			}
+header .logotipo img{
+		padding: 10px 10px;
+
+		}
+		#cabezote{
+	    padding-top: 100px;
+	    }	
+
+}

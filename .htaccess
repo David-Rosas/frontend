@@ -1,0 +1,9 @@
+#impedir que se pueda ver el listado de contenido de un direcctorio
+
+Options All -Indexes
+
+#Url Amigables
+
+RewriteEngine On
+
+RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?ruta=$1
